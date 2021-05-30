@@ -8,11 +8,12 @@
         "amplifier": 0
       }
     },
-    "cooldown": 1800,
+    "cooldown": 1200,
     "hud_render": {
       "should_render": true,
+      "sprite_location": "origins:textures/gui/resource_bar.png",
       "bar_index": 7
     },
     "name": "Mole Armor",
-    "description": "You can press G to activate fire resistance for 45 seconds. 90-second cooldown."
+    "description": "You can press G to activate fire resistance for 45 seconds. 60-second cooldown."
 }

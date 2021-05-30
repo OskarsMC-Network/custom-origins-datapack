@@ -1,0 +1,11 @@
+{
+	"type": "origins:modify_swim_speed",
+	"modifier": {
+		"name": "Duck swim speed bonus",
+		"attribute": "minecraft:generic.movement_speed",
+		"value": 0.03,
+		"operation": "addition"
+	},
+    "name": "Duck Webbing",
+    "description": "Thanks to your duck webbing, you can swim faster."
+}

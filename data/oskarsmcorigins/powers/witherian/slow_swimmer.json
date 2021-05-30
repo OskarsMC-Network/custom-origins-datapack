@@ -1,0 +1,11 @@
+{
+	"type": "origins:modify_swim_speed",
+	"modifier": {
+		"name": "Wither swim speed reduction",
+		"attribute": "minecraft:generic.movement_speed",
+		"value": -0.3,
+		"operation": "multiply_base"
+	},
+    "name": "Heavy Bones",
+    "description": "You swim slower in water."
+}

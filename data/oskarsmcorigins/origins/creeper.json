@@ -1,8 +1,8 @@
 {
 	"powers": [
-        "oskarsmcorigins:explode",
-        "oskarsmcorigins:nocturnal_speed",
-        "oskarsmcorigins:daylight_blindness"
+        "oskarsmcorigins:creeper/explode",
+        "oskarsmcorigins:creeper/nocturnal_speed",
+        "oskarsmcorigins:creeper/daylight_blindness"
         
 	],
 	"icon": "minecraft:gunpowder",

@@ -1,12 +1,12 @@
 {
 	"powers": [
-        "oskarsmcorigins:mole_skin",
-		"oskarsmcorigins:mole_haste",
-        "oskarsmcorigins:lightweight",
+        "oskarsmcorigins:mole/mole_skin",
+		"oskarsmcorigins:mole/mole_haste",
+        "oskarsmcorigins:mole/lightweight",
         "origins:fragile",
-        "oskarsmcorigins:underground_sleeper",
-        "oskarsmcorigins:blindness",
-        "oskarsmcorigins:sky_fatigue",
+        "oskarsmcorigins:mole/underground_sleeper",
+        "oskarsmcorigins:mole/blindness",
+        "oskarsmcorigins:mole/sky_fatigue",
         "origins:vegetarian"
 	],
 	"icon": "minecraft:diamond_shovel",

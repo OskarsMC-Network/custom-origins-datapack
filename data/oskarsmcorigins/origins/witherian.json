@@ -1,11 +1,12 @@
 {
 	"powers": [
-		"oskarsmcorigins:shoot_skull",
-		"oskarsmcorigins:wither_bones",
+		"oskarsmcorigins:witherian/shoot_skull",
+		"oskarsmcorigins:witherian/wither_bones",
 		"origins:nether_spawn",
-		"oskarsmcorigins:wither_blood",
-		"oskarsmcorigins:water_slowness",
-		"oskarsmcorigins:ocean_enemy"
+		"oskarsmcorigins:witherian/wither_blood",
+		"oskarsmcorigins:witherian/water_slowness",
+		"oskarsmcorigins:witherian/ocean_enemy",
+		"oskarsmcorigins:witherian/slow_swimmer"
 	],
 	"icon": "minecraft:wither_rose",
 	"order": 3,

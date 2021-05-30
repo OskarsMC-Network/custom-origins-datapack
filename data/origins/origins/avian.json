@@ -1,9 +1,9 @@
 {
     "loading_priority": 10,
 	"powers": [
-        "oskarsmcorigins:slow_falling_ability",
+        "oskarsmcorigins:speedrunner/slow_falling_ability",
         "origins:tailwind",
-        "oskarsmcorigins:bird_jump",
+        "oskarsmcorigins:speedrunner/bird_jump",
         "origins:fragile",
         "origins:vegetarian"
 	],

@@ -1,0 +1,16 @@
+{
+	"powers": [
+        "oskarsmcorigins:duck/beak",
+        "oskarsmcorigins:duck/holding_breath",
+        "oskarsmcorigins:duck/fast_swimmer",
+        "origins:aqua_affinity",
+        "oskarsmcorigins:duck/warm_blooded",
+        "origins:slow_falling",
+        "origins:vegetarian"
+	],
+	"icon": "minecraft:egg",
+	"order": 2,
+	"impact": 2,
+    "name": "Duckman",
+    "description": "Horrific inbreds between ducks and humans, duckmen are large bird-like people with the ability to swim quickly in water."
+}

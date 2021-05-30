@@ -1,0 +1,7 @@
+{
+    "type": "origins:inventory",
+    "drop_on_death": true,
+    "name": "Inventory Beak",
+    "key": "primary",
+    "description": "You can press G to open an inventory inside your beak. Doesn't persist after death."
+}

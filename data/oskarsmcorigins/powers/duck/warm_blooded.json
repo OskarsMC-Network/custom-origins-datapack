@@ -1,0 +1,38 @@
+{
+	"type": "origins:damage_over_time",
+	"interval": 35,
+    "onset_delay": 100,
+    "damage": 1,
+    "damage_source": {
+        "name": "freezing",
+        "protection_enchantment": "moborigins:heat_protection",
+        "protection_effectiveness": 1.2,
+        "bypasses_armor": true
+    },
+    "condition": {
+        "type": "origins:biome",
+        "biomes": [
+            "minecraft:frozen_ocean",
+            "minecraft:deep_frozen_ocean",
+            "minecraft:deep_cold_ocean",
+            "minecraft:cold_ocean",
+            "minecraft:snowy_beach",
+            "minecraft:snowy_taiga_mountains",
+            "minecraft:snowy_taiga",
+            "minecraft:snowy_taiga_hills",
+            "minecraft:ice_spikes",
+            "minecraft:snowy_mountains",
+            "minecraft:snowy_tundra",
+            "minecraft:mountains",
+            "minecraft:wooded_mountains",
+            "minecraft:gravelly_mountains",
+            "minecraft:modified_gravelly_mountains",
+            "minecraft:taiga",
+            "minecraft:taiga_hills",
+            "minecraft:taiga_mountains"
+
+        ]
+    },
+    "name": "Warm-Blooded",
+    "description": "You take damage overtime in cold biomes."
+}
