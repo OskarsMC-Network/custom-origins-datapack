@@ -1,0 +1,41 @@
+{
+	"type": "origins:self_action_on_kill",
+	"entity_action": {
+		"type": "origins:execute_command",
+		"command": "function necro:level_seven/zombie_pigman_summon",
+		"permission_level": 4
+	},
+	"hud_render": {
+		"should_render": false,
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_points_01.png",
+		"bar_index": 6
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+				"type": "origins:resource",
+				"resource": "necro:scroller/scroller",
+				"comparison": "==",
+				"compare_to": 7
+			},
+			{
+				"type": "origins:resource",
+				"resource": "necro:xp_scaler/xp",
+				"comparison": "==",
+				"compare_to": 9
+			},
+			{
+				"type": "origins:resource",
+				"resource": "necro:mana/mana",
+				"comparison": ">=",
+				"compare_to": 1250
+			}
+		]
+	},
+	"target_condition": {
+		"type": "origins:entity_type",
+		"entity_type": "minecraft:piglin"
+	},
+	"cooldown": 1,
+	"hidden": true
+}

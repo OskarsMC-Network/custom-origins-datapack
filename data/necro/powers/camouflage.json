@@ -1,0 +1,29 @@
+{
+	"type": "origins:action_over_time",
+	"name": "spirits hide me",
+	"description": "Your loyal spirits help you hide",
+	"interval": 20,
+	"entity_action": {
+		"type": "origins:apply_effect",
+		"effects": [{
+				"effect": "minecraft:invisibility",
+				"duration": 30,
+				"is_ambient": true,
+				"amplifier": 2,
+				"show_particles": false,
+				"show_icon": false
+			},
+			{
+				"effect": "minecraft:resistance",
+				"duration": 30,
+				"is_ambient": true,
+				"amplifier": 0,
+				"show_particles": false,
+				"show_icon": false
+			}
+		]
+	},
+	"condition": {
+		"type": "origins:sneaking"
+	}
+}

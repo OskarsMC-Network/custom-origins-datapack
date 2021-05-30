@@ -1,0 +1,38 @@
+{
+  "type":"origins:fire_projectile",
+  "entity_type":"minecraft:fireball",
+  "tag":"{NoGravity:1b}",
+  "cooldown":10,
+  "count":2,
+  "hud_render":{
+    "sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_points_01.png",
+    "bar_index":6
+    },
+	"condition": {
+	 "type": "origins:and",
+		"conditions": [
+    {
+     "type": "origins:resource",
+	 "resource": "necro:scroller/scroller",
+     "comparison": "==",
+     "compare_to": 2
+	},
+    {      
+     "type": "origins:resource",
+	 "resource": "necro:mana/mana",
+     "comparison": ">=",
+     "compare_to": 10000
+    }
+  ]
+},
+  "continuous":true,
+  "speed":0.01,
+  "sound":"item.firecharge.use",
+  "divergence": 45,
+  "name":"Fireball Creation",
+  "description":"Primary Scroll 2, You are able to create and summon two slow moving fireballs at the cost of some mana. Cost: 1/2 mana bar.",
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": true
+  }
+}

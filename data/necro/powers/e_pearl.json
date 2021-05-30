@@ -1,0 +1,64 @@
+{
+	"type": "origins:multiple",
+	"e_pearl": {
+		"type": "origins:fire_projectile",
+		"cooldown": 10,
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+				"type": "origins:resource",
+				"resource": "necro:scroller/scroller",
+				"comparison": "==",
+				"compare_to": 4
+			}, {
+				"type": "origins:resource",
+				"resource": "necro:mana/mana",
+				"comparison": ">=",
+				"compare_to": 15000
+			}]
+		},
+		"entity_type": "origins:enderian_pearl",
+		"sound": "minecraft:entity.ender_pearl.throw",
+		"speed": 0.75,
+		"divergence": 1,
+		"key": {
+			"key": "key.origins.primary_active",
+			"continuous": false
+		},
+		"hud_render": {
+			"bar_index": 6
+		}
+	},
+	"e_pearl_mana_cost": {
+		"type": "origins:active_self",
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "necro:mana/mana",
+			"change": -15000
+		},
+		"hud_render": {
+			"should_render": false,
+			"sprite_location": "huang:textures/gui/requestpack1_bar.png",
+			"bar_index": 0
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:resource",
+					"resource": "necro:scroller/scroller",
+					"comparison": "==",
+					"compare_to": 4
+				},
+				{
+					"type": "origins:resource",
+					"resource": "necro:mana/mana",
+					"comparison": ">=",
+					"compare_to": 15000
+				}
+			]
+		},
+		"cooldown": 10
+	},
+	"name": "Teleport",
+	"description": "Primary Scroll 4: You create a ender pearl that launches and tps you to where it lands. Cost: 3/4 mana bar"
+}

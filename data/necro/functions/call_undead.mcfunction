@@ -1,0 +1,1 @@
+tp @e[tag=summoned,distance=1..100] @s

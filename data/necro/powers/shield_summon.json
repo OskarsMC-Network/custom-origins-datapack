@@ -1,0 +1,103 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "function necro:shield_summon",
+        "permission_level": 4
+    },
+    "cooldown": 10,
+    "hud_render": {
+        "should_render": true,
+        "bar_index": 5
+    },
+	"condition": {
+	 "type": "origins:and",
+		"conditions": [
+    {
+     "type": "origins:resource",
+	 "resource": "necro:scroller/scroller",
+     "comparison": "==",
+     "compare_to": 6
+	},
+    {      
+     "type": "origins:resource",
+	 "resource": "necro:mana/mana",
+     "comparison": ">=",
+     "compare_to": 7500
+    }
+  ]
+},
+    "key": "primary",
+    "name": "Defend Up",
+    "description": "Priamry Scroll 6, You summon two zombies and two skeletons with enchanted armor. Cost: 3/4 mana bar."
+}
+
+
+{
+	"type": "origins:multiple",
+	"shield_up": {
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "function necro:shield_summon",
+        "permission_level": 4
+    },
+    "cooldown": 10,
+    "hud_render": {
+        "should_render": true,
+        "bar_index": 5
+    },
+	"condition": {
+	 "type": "origins:and",
+		"conditions": [
+    {
+     "type": "origins:resource",
+	 "resource": "necro:scroller/scroller",
+     "comparison": "==",
+     "compare_to": 6
+	},
+    {      
+     "type": "origins:resource",
+	 "resource": "necro:mana/mana",
+     "comparison": ">=",
+     "compare_to": 7500
+    }
+  ]
+},
+    "key": "primary"
+},
+	"shield_up_mana_cost": {
+ "type": "origins:active_self",
+  "entity_action": {
+	"type": "origins:change_resource",
+	"resource": "necro:mana/mana",
+	"change": -15000
+  },
+  "hud_render":{
+	"should_render": false,
+    "sprite_location":"huang:textures/gui/requestpack1_bar.png",
+    "bar_index":0
+    },
+"condition": {
+	 "type": "origins:and",
+		"conditions": [
+    {
+     "type": "origins:resource",
+	 "resource": "necro:scroller/scroller",
+     "comparison": "==",
+     "compare_to": 6
+	},
+    {      
+     "type": "origins:resource",
+	 "resource": "necro:mana/mana",
+     "comparison": ">=",
+     "compare_to": 15000
+    }
+  ]
+},
+  "cooldown": 10,
+  "hidden": true
+},
+    "name": "Defend Up",
+    "description": "Primary Scroll 6, You summon two zombies and two skeletons with enchanted armor. Cost: 3/4 mana bar."
+}

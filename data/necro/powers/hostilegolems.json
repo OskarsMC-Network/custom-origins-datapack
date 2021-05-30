@@ -1,0 +1,12 @@
+{
+	"type": "origins:action_over_time",
+	"entity_action": 
+	{
+	"type": "origins:execute_command",
+	"command": "execute as @s run function necro:hostilegolems",
+    "permission_level": 4
+	},
+	"interval": 10,
+  "name": "Enemy Defences",
+  "description": "Iron Golems will Attack you."
+}

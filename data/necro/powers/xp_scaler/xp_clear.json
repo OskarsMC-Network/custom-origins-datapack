@@ -1,0 +1,9 @@
+{
+    "type": "origins:action_on_callback",
+    "entity_action_respawned": {
+        "type": "origins:execute_command",
+        "command": "function necro:xp_clear_on_death",
+        "permission_level": 4
+    },
+	"hidden": true
+}

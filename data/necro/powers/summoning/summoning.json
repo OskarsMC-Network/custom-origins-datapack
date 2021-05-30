@@ -1,0 +1,33 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "function necro:mob_summon",
+        "permission_level": 4
+    },
+    "cooldown": 50,
+    "hud_render": {
+        "should_render": true,
+        "bar_index": 5
+    },
+	"condition": {
+	 "type": "origins:and",
+		"conditions": [
+    {
+     "type": "origins:resource",
+	 "resource": "necro:scroller/scroller",
+     "comparison": "==",
+     "compare_to": 1
+	},
+    {      
+     "type": "origins:resource",
+	 "resource": "necro:mana/mana",
+     "comparison": ">=",
+     "compare_to": 5000
+    }
+  ]
+},
+    "key": "primary",
+    "name": "Summoning",
+    "description": "Primary Scroll 1, You summon two zombies and two skeletons with enchanted armor. Cost: 1/4 mana bar"
+}

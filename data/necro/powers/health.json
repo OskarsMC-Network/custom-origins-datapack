@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "value": -6,
+        "operation": "addition"
+    },
+    "name": "Rotting away",
+    "description": "You only have 5 hearts because being around the undead so long, so you are starting to become one of them",
+    "hidden": false
+}

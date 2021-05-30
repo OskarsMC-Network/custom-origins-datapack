@@ -1,0 +1,14 @@
+{
+  "type": "origins:toggle"
+   },
+	 "condition": {
+     "type": "origins:resource",
+	 "resource": "necro:scroller/scroller",
+     "comparison": "==",
+     "compare_to": 3
+	},
+  "hidden": true,
+  "key": {
+    "key": "key.origins.primary",
+    "continuous": false
+}

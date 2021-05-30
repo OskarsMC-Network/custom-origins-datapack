@@ -1,0 +1,1 @@
+team join summoned @e[tag=summoned]

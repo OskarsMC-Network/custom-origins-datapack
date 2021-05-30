@@ -1,0 +1,49 @@
+{
+    "type": "origins:multiple",
+    "chance": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:chance",
+                "action": {
+                    "type": "origins:execute_command",
+                    "command": "scoreboard players set @s chance_score 1",
+                    "permission_level": 4
+                },
+                "chance": 0.8
+        },
+        "interval": 20
+    },
+        "give_invis": {
+            "type": "origins:invulnerability",
+            "condition": {
+                "type": "origins:scoreboard",
+                "objective": "chance_score",
+                "comparison": "==",
+                "compare_to": 1,
+                "inverted": false
+            },
+            "damage_condition": {
+                "type": "origins:fire",
+                "inverted": true
+            }
+    },
+    "clear_score": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:chance",
+            "action": {
+                "type": "origins:execute_command",
+                "command": "scoreboard players set @s chance_score 0",
+                "permission_level": 4
+            },
+            "chance": 1,
+            "condition": {
+                "type": "origins:scoreboard",
+                "objective": "chance_score",
+                "comparison": "==",
+                "compare_to": 0.2
+            }
+        },
+        "interval": 20
+    }
+}

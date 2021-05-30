@@ -1,0 +1,10 @@
+{
+    "type": "origins:action_over_time",
+	"entity_action": {
+        "type": "origins:execute_command",
+        "command": "function necro:carnage_summons",
+        "permission_level": 4
+		},
+"interval": 1,
+"hidden": true
+}

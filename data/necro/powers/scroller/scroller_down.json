@@ -1,0 +1,20 @@
+{
+   "type": "origins:active_self",
+  "entity_action": {
+	"type": "origins:change_resource",
+	"resource": "necro:scroller/scroller",
+	"change": -1
+	},
+ "cooldown": 4,
+ "hud_render":{
+        "should_render": false,
+        "sprite_location": "necro:textures/resource_bar.png",
+        "bar_index": 9
+		},
+	"name": "Down Scroll",
+	"description": "Press your pick block button to scroll down a power.",
+    "key": {
+        "key": "key.pickItem",
+        "continuous": true
+    }
+}
