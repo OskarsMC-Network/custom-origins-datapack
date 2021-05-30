@@ -1,0 +1,6 @@
+{
+    "type": "origins:effect_immunity",
+    "effect": "minecraft:dolphins_grace",
+    "name": "Enemy of the ocean",
+    "description": "Dolphins don't give you the dolphin's grace effect."
+}

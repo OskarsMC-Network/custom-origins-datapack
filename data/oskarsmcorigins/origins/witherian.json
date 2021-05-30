@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"oskarsmcorigins:shoot_skull",
+		"oskarsmcorigins:wither_bones",
+		"origins:nether_spawn",
+		"oskarsmcorigins:wither_blood",
+		"oskarsmcorigins:water_slowness",
+		"oskarsmcorigins:ocean_enemy"
+	],
+	"icon": "minecraft:wither_rose",
+	"order": 3,
+	"impact": 2,
+    "name": "Witherian",
+    "description": "Ancient skeletons from the nether."
+}

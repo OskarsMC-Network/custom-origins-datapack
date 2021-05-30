@@ -1,0 +1,13 @@
+{
+	"powers": [
+        "oskarsmcorigins:explode",
+        "oskarsmcorigins:nocturnal_speed",
+        "oskarsmcorigins:daylight_blindness"
+        
+	],
+	"icon": "minecraft:gunpowder",
+	"order": 2,
+	"impact": 2,
+    "name": "Creeperian",
+    "description": "Descendants of the feared Creepers, Creeperian are sensetive to the sun and have the ability to explode at will."
+}

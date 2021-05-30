@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "origins":[
+        "oskarsmcorigins:witherian",
+        "oskarsmcorigins:mole",
+        "oskarsmcorigins:creeper",
+        "oskarsmcorigins:witch"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "loading_priority": 10,
+	"powers": [
+        "oskarsmcorigins:slow_falling_ability",
+        "origins:tailwind",
+        "oskarsmcorigins:bird_jump",
+        "origins:fragile",
+        "origins:vegetarian"
+	],
+	"icon": "minecraft:feather",
+	"order": 1,
+	"impact": 1,
+    "name": "Roadrunner",
+    "description": "A fast bird race that have long lost their ability to fly."
+}

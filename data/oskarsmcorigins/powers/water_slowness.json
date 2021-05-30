@@ -1,0 +1,34 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 25,
+    "effects": [ 
+        {
+            "effect": "minecraft:mining_fatigue",
+            "amplifier": 0,
+            "show_particles": false,
+            "show_icon": false
+        },
+        {
+            "effect": "minecraft:slowness",
+            "amplifier": 3,
+            "show_particles": false,
+            "show_icon": false
+        },
+        {
+            "effect": "minecraft:weakness",
+            "amplifier": 0,
+            "show_particles": false,
+            "show_icon": false
+        }
+    ],
+    "condition": {
+        "type": "origins:fluid_height",
+        "fluid": "minecraft:water",
+        "comparison": ">",
+        "compare_to": 0
+    },
+    "name": "Waterallergic",
+    "description": "Allergic to water. You get slowness while in contact with water."
+}

@@ -1,0 +1,18 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:slow_falling",
+        "duration": 500,
+        "amplifier": 0
+      }
+    },
+    "cooldown": 1000,
+    "hud_render": {
+      "should_render": true,
+      "bar_index": 4
+    },
+    "name": "Birdlike Wings",
+    "description": "Despite your inability to fly, you can press G to get slow falling for 25 seconds. 50 second cooldown."
+}

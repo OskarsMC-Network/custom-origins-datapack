@@ -1,0 +1,18 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 20,
+    "effect": {
+       "effect": "minecraft:haste",
+       "amplifier": 1,
+       "show_particles": false,
+       "show_icon": false
+    },
+    "condition": {
+        "type": "origins:exposed_to_sky",
+        "inverted": true
+    },
+    "name": "Mole Claws",
+    "description": "Sharp claws designed for digging. You get haste 2 while underground."
+}

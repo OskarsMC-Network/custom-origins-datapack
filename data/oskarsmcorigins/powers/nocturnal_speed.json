@@ -1,0 +1,15 @@
+{
+	"type": "origins:attribute",
+	"modifier": {
+		"name": "Nocturnal speed bonus",
+		"attribute": "minecraft:generic.movement_speed",
+		"value": 0.04,
+		"operation": "addition"
+	},
+    "condition": {
+        "type": "origins:exposed_to_sun"
+    },
+    "tick_rate": 20,
+    "name": "Nocturnal Speed",
+    "description": "As a nocturnal creature, you are faster at night or in the shade."
+}

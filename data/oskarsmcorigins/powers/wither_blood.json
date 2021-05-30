@@ -1,0 +1,6 @@
+{
+    "type": "origins:effect_immunity",
+    "effect": "minecraft:wither",
+    "name": "Wither Blood",
+    "description": "You are immune to withering."
+}

@@ -1,0 +1,17 @@
+{
+	"powers": [
+        "oskarsmcorigins:mole_skin",
+		"oskarsmcorigins:mole_haste",
+        "oskarsmcorigins:lightweight",
+        "origins:fragile",
+        "oskarsmcorigins:underground_sleeper",
+        "oskarsmcorigins:blindness",
+        "oskarsmcorigins:sky_fatigue",
+        "origins:vegetarian"
+	],
+	"icon": "minecraft:diamond_shovel",
+	"order": 3,
+	"impact": 3,
+    "name": "Moleborn",
+    "description": "Moles. Small blind mammals which primarily live underground."
+}

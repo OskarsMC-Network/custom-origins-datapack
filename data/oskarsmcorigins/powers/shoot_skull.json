@@ -1,0 +1,15 @@
+{
+    "type": "origins:fire_projectile",
+    "entity_type": "wither_skull",
+    "cooldown": 320,
+    "count": 2,
+    "speed": 2,
+    "sound": "entity.wither.shoot",
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "bar_index": 19
+    },
+    "name": "Wither Skull",
+    "description": "Press G to shoot a double wither skull."
+}
