@@ -1,0 +1,12 @@
+{
+	"type": "origins:self_action_when_hit",
+
+	"entity_action": {
+		"type": "origins:execute_command",
+		"command": "playsound minecraft:entity.vex.hurt player @a ~ ~ ~ 1 0.9",
+		"permission_level": 4
+	},
+	"cooldown": 0,
+
+	"hidden": true
+}

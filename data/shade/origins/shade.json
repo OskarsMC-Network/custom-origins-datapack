@@ -1,0 +1,29 @@
+{
+	"powers": [
+		"origins:phantomize",
+		"shade:dark_skin",
+		"origins:phasing",
+		"shade:shade_hunger",
+		"shade:light_debuff",
+		"shade:shade_hurt",
+		"shade:light_shake",
+		"shade:light_damage",
+		"shade:light_armor",
+		"shade:invisibility",
+		"shade:dark_strength",
+		"shade:light_weakness",
+		"shade:dark_speed",
+		"shade:dark_resist",
+		"shade:light_fatigue",
+		"shade:light_slowness",
+		"shade:dark_haste",
+		"shade:no_effects",
+		"extraorigins:flammable"
+],
+	"icon": "minecraft:coal",
+	"order": 1,
+	"impact": 3,
+	"name": "Shade",
+	"description": "Tweaked version of the Phantom. Thrives at low light levels, but is heavily handicapped at high light levels",
+	"unchoosable": false
+}

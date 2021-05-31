@@ -1,0 +1,8 @@
+{
+	"type": "origins:shaking",
+	"condition": {
+	"type": "origins:status_effect",
+        "effect": "minecraft:unluck"
+	},
+"hidden": "true"
+}

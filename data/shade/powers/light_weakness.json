@@ -1,0 +1,13 @@
+  {
+  "type": "origins:modify_damage_dealt",
+  "modifier": {
+    "value": -6,
+    "operation": "addition"
+  },
+  "condition": {
+		"type": "origins:brightness",
+			"comparison": ">=",
+			"compare_to": 0.2
+	},
+	"hidden": "true"
+}

@@ -1,0 +1,11 @@
+{
+	"type": "origins:invisibility",
+	"render_armor": false,
+	"condition": { 
+	"type": "origins:brightness",
+	"comparison": "<",
+	"compare_to": 0.001
+	},
+	"name": "Prowl",
+	"description": "Stays visible while phasing, but is invisible at very low light levels."
+}

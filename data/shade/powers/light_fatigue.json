@@ -1,0 +1,12 @@
+  {
+  "type": "origins:modify_break_speed",
+  "modifier": {
+    "value": -0.60,
+    "operation": "multiply_total"
+  },
+  "condition": {
+	"type": "origins:status_effect",
+        "effect": "minecraft:unluck"
+	},
+	"hidden": "true"
+}
