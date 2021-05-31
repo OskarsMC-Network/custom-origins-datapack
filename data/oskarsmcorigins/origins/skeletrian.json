@@ -1,0 +1,15 @@
+{
+	"powers": [
+        "oskarsmcorigins:skeletrian/skeleton_shotgun",
+        "oskarsmcorigins:skeletrian/projectile_immunity",
+        "oskarsmcorigins:skeletrian/sharpshooter",
+        "oskarsmcorigins:skeletrian/weak_arms",
+        "oskarsmcorigins:skeletrian/brittle_bones",
+        "origins:burn_in_daylight"  
+	],
+	"icon": "minecraft:bone_meal",
+	"order": 2,
+	"impact": 2,
+    "name": "Skeletrian",
+    "description": "Some boney bois"
+}

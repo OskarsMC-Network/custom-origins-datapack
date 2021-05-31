@@ -1,0 +1,15 @@
+{
+    "type": "origins:modify_damage_dealt",
+    "damage_condition":{
+        "type": "origins:projectile",
+        "inverted": true
+    },
+    "modifier": {
+		"name": "Skeleton weak arms",
+		"attribute": "minecraft:generic.attack_damage",
+		"value": -0.5,
+		"operation": "multiply_base"
+	},
+    "name": "Weak Arms",
+    "description": "You deal less melee damage."
+}

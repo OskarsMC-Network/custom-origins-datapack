@@ -1,0 +1,15 @@
+{
+    "type": "origins:fire_projectile",
+    "entity_type": "arrow",
+    "cooldown": 55,
+    "count": 1,
+    "speed": 4,
+    "sound": "entity.skeleton.shoot",
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_points_01.png",
+        "bar_index": 10
+    },
+    "name": "Skelly Gun",
+    "description": "Press G to shoot an arrow. 3 Second cooldown."
+}
